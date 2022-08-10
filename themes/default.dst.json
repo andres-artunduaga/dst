@@ -234,7 +234,7 @@
                 "xl": "1920px"
             },
             "box-shadow": {
-                "sm": "0 1px 2px 0 &[ref.palette.red.50]"
+                "sm": "0 1px 2px 0 &[ref.palette.red.50.value]"
             },
             "space": {
                 "xxs": "4px",
@@ -259,12 +259,12 @@
         },
         "sys": {
             "color": {
-                "primary": "&[ref.palette.blue.50]",
-                "secondary": "&[ref.palette.orange.50]",
-                "alert": "&[ref.palette.red.50]",
-                "warning": "&[ref.palette.orange.50]",
-                "info": "&[ref.palette.gray.50]",
-                "success": "&[ref.palette.green.50]"
+                "primary": "&[ref.palette.blue.50.value]",
+                "secondary": "&[ref.palette.orange.50.value]",
+                "alert": "&[ref.palette.red.50.value]",
+                "warning": "&[ref.palette.orange.50.value]",
+                "info": "&[ref.palette.gray.50.value]",
+                "success": "&[ref.palette.green.50.value]"
             }
         }
     }
